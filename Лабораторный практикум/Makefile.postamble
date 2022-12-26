@@ -1,9 +1,0 @@
-NAME=`cat NAME`
-
-split: default.pdf
-	./scripts/fix_split-paper
-	./scripts/split-paper
-
-rename:
-#	mmv "*.pdf" ${NAME}-"#1.pdf"
-	mv "default.pdf" ${NAME}.pdf
